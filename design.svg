@@ -1,7 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg">
     <foreignObject width="100%" height="100%">
-        <div xmlns="http://www.w3.org/1999/xhtml" style="background-color: aqua; width: 100%; display: flex">
+        <div xmlns="http://www.w3.org/1999/xhtml"
+            style="background-color: aqua; width: 100%; display: flex">
             <p>Hello world My name is Manish Kumar and I am from Nepal and I love my Nepal</p>
+            <script type="text/javascript">
+                document.body.style.backgroundColor = "yellow";
+            </script>
         </div>
     </foreignObject>
 </svg>
