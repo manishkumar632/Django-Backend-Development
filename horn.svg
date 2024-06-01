@@ -1,0 +1,18 @@
+<!-- example.svg -->
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .circle {
+        fill: blue;
+        stroke: black;
+        stroke-width: 3px;
+        }
+
+        .rect {
+        fill: red;
+        stroke: black;
+        stroke-width: 3px;
+        }
+    </style>
+    <circle class="circle" cx="50" cy="50" r="40"></circle>
+    <rect class="rect" x="100" y="10" width="80" height="80"></rect>
+</svg>
