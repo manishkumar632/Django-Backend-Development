@@ -15,4 +15,8 @@
     </style>
     <circle class="circle" cx="50" cy="50" r="40"></circle>
     <rect class="rect" x="100" y="10" width="80" height="80"></rect>
+    <circle class="circle" cx="50" cy="50" r="40"></circle>
+    <rect class="rect" x="100" y="10" width="80" height="80"></rect>
+    <circle class="circle" cx="50" cy="50" r="40"></circle>
+    <rect class="rect" x="100" y="10" width="80" height="80"></rect>
 </svg>
