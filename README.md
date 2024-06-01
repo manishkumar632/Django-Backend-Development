@@ -1,2 +1,2 @@
 # Django-Backend-Development
-![](https://github.com/manishkumar632/Django-Backend-Development/blob/main/design.svg)
+<img width="100%" src="https://raw.githubusercontent.com/manishkumar632/Django-Backend-Development/main/design.svg" alt="svg">
