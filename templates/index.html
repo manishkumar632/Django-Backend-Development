@@ -1,3 +1,35 @@
-<div>
-    <h1>Hello, You have successfully rendered index.html page</h1>
-</div>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Word Count Form</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" />
+    <script src="{% static 'javascript/index.js' %}" defer></script>
+</head>
+
+<body>
+    <h1>Word Count</h1>
+    <form method="POST">
+        {% csrf_token %}
+        <textarea name="text" rows="4" cols="50">
+{{ text|default_if_none:'' }}</textarea><br />
+        <button type="submit">Count Words</button>
+    </form>
+    {% if no_of_words is not None %} {% if no_of_words > 0 %}
+    <p>Number of words: {{ no_of_words }}</p>
+    {% endif %} {% endif %}
+
+    <div id="render">
+        <button onclick="renderpage()">click me</button>
+    </div>
+
+    <div>
+        <h3>click to navigate to about page</h3>
+        <button>
+            <a href="about">click me</a>
+        </button>
+    </div>
+</body>
+
+</html>
