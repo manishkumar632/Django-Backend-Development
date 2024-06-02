@@ -1,16 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Poppins');
-    </style>
-    <foreignObject width="100%" height="100%">
+    <defs>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Poppins');
+        </style>
+        <font-face font-family="Poppins" font-style="normal" font-weight="400"
+            href="https://fonts.googleapis.com/css2?family=Poppins" />
+    </defs>
+    <foreignObject width="100%" height="100%" font-family="Poppins">
         <div xmlns="http://www.w3.org/1999/xhtml"
             style="width: 100%; display: flex; margin: 0px; padding: 0px; background-color: #232323;">
-            <div
-                style="color: white; width: max-content; height: min-content; margin: auto; font-family: Poppins;">
+            <div style="color: white; width: max-content; height: min-content; margin: auto;">
                 <h4>Setup and Installation for Django Backend Project</h4>
-            </div>=
+            </div>
         </div>
-        <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: Poppins;">
+        <div xmlns="http://www.w3.org/1999/xhtml">
             <ul>
                 <li>
                     <p>Install <b>Virtual Environment</b></p>
