@@ -14,6 +14,12 @@
                         python -m pip install virtualenv
                     </p>
                 </li>
+                <li>
+                    <p>Install <b>Virtual Environment</b></p>
+                    <p style="margin-left: 30px; background-color: rgb(245, 242, 242); padding: 10px; width: max-content; border-radius: 5px; box-shadow: 0 0 5px rgb(0, 0, 0.7);">
+                        python -m pip install virtualenv
+                    </p>
+                </li>
             </ul>
         </div>
     </foreignObject>
