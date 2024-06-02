@@ -10,28 +10,28 @@
             <ul>
                 <li>
                     <p>Install <b>Virtual Environment</b></p>
-                    <p style="margin-left: 30px; background-color: rgb(245, 242, 242); padding: 10px; width: max-content; border-radius: 5px; box-shadow: 0 0 5px rgb(0, 0, 0.7); min-width: 300px; text: center">
+                    <p style="margin-left: 30px; background-color: rgb(245, 242, 242); padding: 10px; width: max-content; border-radius: 5px; box-shadow: 0 0 5px rgb(0, 0, 0.7); min-width: 300px; text-align: center">
                         python -m pip install virtualenv
                     </p>
                 </li>
                 <li>
                     <p>Create <b>Virtual Environment</b> directory.</p>
                     <p
-                        style="margin-left: 30px; background-color: rgb(245, 242, 242); padding: 10px; width: max-content; border-radius: 5px; box-shadow: 0 0 5px rgb(0, 0, 0.7); min-width: 300px;">
+                        style="margin-left: 30px; background-color: rgb(245, 242, 242); padding: 10px; width: max-content; border-radius: 5px; box-shadow: 0 0 5px rgb(0, 0, 0.7); min-width: 300px; text-align: center;">
                         python -m venv venv
                     </p>
                 </li>
                 <li>
                     <p>Activate <b>Virtual Environment</b></p>
                     <p
-                        style="margin-left: 30px; background-color: rgb(245, 242, 242); padding: 10px; width: max-content; border-radius: 5px; box-shadow: 0 0 5px rgb(0, 0, 0.7); min-width: 300px;">
+                        style="margin-left: 30px; background-color: rgb(245, 242, 242); padding: 10px; width: max-content; border-radius: 5px; box-shadow: 0 0 5px rgb(0, 0, 0.7); min-width: 300px; text-align: center;">
                         venv\Scripts\activate
                     </p>
                 </li>
                 <li>
                     <p>Install <b>Django</b></p>
                     <p
-                        style="margin-left: 30px; background-color: rgb(245, 242, 242); padding: 10px; width: max-content; border-radius: 5px; box-shadow: 0 0 5px rgb(0, 0, 0.7); min-width: 300px;">
+                        style="margin-left: 30px; background-color: rgb(245, 242, 242); padding: 10px; width: max-content; border-radius: 5px; box-shadow: 0 0 5px rgb(0, 0, 0.7); min-width: 300px; text-align: center;">
                         python -m pip install django
                     </p>
                 </li>
