@@ -1,5 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http:www.w3.org/1999/xlink">
     <foreignObject width="100%" height="100%">
+        <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'nonce-randomNonce123';" />
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Poppins');
             *{
@@ -46,7 +47,7 @@
                 </li>
             </ul>
         </div>
-        <script type='text/javascript'>
+        <script type='text/javascript' nonce="randomNonce123">
             document.addEventListener('DOMContentLoaded', () => {
                 console.log("svg loaded.");
             })
