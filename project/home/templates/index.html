@@ -11,7 +11,19 @@
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
 </head>
 <body>
-    <h1>I am Home page</h1>
+    <h1>Enter the mark of each subject.</h1>
+    <form method="POST">
+    {% csrf_token %}
+        <label for="English">English: <input type="number" name="English" id="English" value="{{ request.POST.English }}"></label><br>
+        <label for="Maths">Maths: <input type="number" name="Maths" id="Maths" value="{{ request.POST.Maths }}"></label><br>
+        <label for="Science">Science: <input type="number" name="Science" id="Science" value="{{ request.POST.Science }}"></label><br>
+        <label for="Social">Social: <input type="number" name="Social" id="Social" value="{{ request.POST.Social }}"></label><br>
+        <label for="Computer">Computer: <input type="number" name="Computer" id="Computer" value="{{ request.POST.Computer }}"></label><br>
+        <input type="submit" value="Submit">
+        </form>
+    {% if data %}
+        <p>{{data}}</p>
+    {% endif %}
     <script src="{% static 'javascript/index.js' %}"></script>
 </body>
 </html>
