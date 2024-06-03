@@ -1,0 +1,16 @@
+
+button{
+    width: 100px;
+    height: 30px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+
+.active{
+    background-color: chocolate;
+}
